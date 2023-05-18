@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import myImage from './image1.jpg';
+import WeatherUpdate from './WeatherUpdate';
+
 function App() {
   return (
     <div className="App">
@@ -41,9 +43,12 @@ function App() {
           at <a href="mailto:yw4016@columbia.edu">yw4016@columbia.edu</a>.
         </p>
       </section>
+      <WeatherUpdate />
     </div>
   );
 }
 
 export default App;
+
+
 
